@@ -8,7 +8,7 @@ subtitle: Luck Network のスタッフが、サーバーの更新情報などを
 description: Latest update of Luck Network from staff.
 keywords: lucknetwork minecraft
 author: Luck Network
-language: en
+language: ja
 timezone: Japan
 
 # URL
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: material-x
+theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
