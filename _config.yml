@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-keywords:
-author: John Doe
-language:
-timezone:
+title: Luck Network スタッフブログ
+subtitle: Luck Network のスタッフが、サーバーの更新情報などを投稿します。
+description: Latest update of Luck Network from staff.
+keywords: lucknetwork minecraft
+author: Luck Network
+language: ja
+timezone: Japan
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://blog.lucknetwork.jp
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -54,7 +54,7 @@ index_generator:
   order_by: -date
   
 # Category & Tag
-default_category: uncategorized
+default_category: 未分類
 category_map:
 tag_map:
 
@@ -62,7 +62,7 @@ tag_map:
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY-MM-DD
+date_format: YYYY/MM/DD
 time_format: HH:mm:ss
 
 # Pagination
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: material-flow
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
