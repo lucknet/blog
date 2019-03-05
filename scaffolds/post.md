@@ -1,5 +1,7 @@
 ---
-title: {{ title }}
-date: {{ date }}
-tags:
+title: 新規投稿テスト
+date: 2019/03/05 18:18
+tags: テスト投稿
 ---
+
+ これはテスト投稿です。
