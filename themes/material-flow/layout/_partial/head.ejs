@@ -6,16 +6,16 @@
   <%
     var title = page.title;
     if (is_archive()) {
-      title = 'Archives';
+      title = 'アーカイブ';
       if (is_month())
         title += ': ' + page.year + '/' + page.month;
       else if (is_year())
         title += ': ' + page.year;
     }
     else if (is_category())
-      title = 'Category: ' + page.category;
+      title = 'カテゴリー: ' + page.category;
     else if (is_tag())
-      title = 'Tag: ' + page.tag;
+      title = 'タグ: ' + page.tag;
   %>
   <title><% if (title) { %><%= title %> | <% } %><%= config.title %></title>
   <meta name="description" content="<%= config.description %>" />
