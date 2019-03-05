@@ -1,14 +1,14 @@
 <% if (is_tag()) { %>
   <script>
-    window.subData= { title:'Tag : <%= page.tag %>'}
+    window.subData= { title:'タグ : <%= page.tag %>'}
   </script>
 <% } else if (is_archive()) { %>
   <script>
-    window.subData= { title:'Year : <%= page.year %><%= page.month ? '.' + page.month : '' %>'}
+    window.subData= { title:'年 : <%= page.year %><%= page.month ? '.' + page.month : '' %>'}
   </script>
 <% } else if (is_category()) { %>
   <script>
-    window.subData= { title:'Category : <%= page.category %>'}
+    window.subData= { title:'カテゴリー : <%= page.category %>'}
   </script>
 <% } %>
 <section class="post-list">

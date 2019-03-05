@@ -5,7 +5,7 @@
     <section class='meta'>
       <h2 class="title">
         <a href="javascript:void(0)">
-          Archives
+          アーカイブ
         </a>
       </h2>
     </section>
@@ -19,13 +19,13 @@
       %>
             <div class="archive-item archive-year mark">
               <a id="archive-year-<%= year %>" href='<%= url_for("/archives/" + year + "/") %>' >
-                <%= year %>
+                <%= year %>年
               </a>
             </div>
       <%  } %>
           <div class="archive-item archive-post mark">
             <a href="<%= url_for(post.path) %>">
-              <time><%= date(post.date, 'MM-DD') %></time>
+              <time><%= date(post.date, 'LLL') %></time>
               <span class="title"><span><%= post.title %></span></span>
             </a>
           </div>
