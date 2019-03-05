@@ -1,7 +1,7 @@
 <%- partial('_partial/head.ejs') %>
 <body>
   <%- partial('_partial/loading.ejs') %>
-  <script>setLoadingBarProgress(20)</script> 
+  <script>setLoadingBarProgress(20)</script>
   <%- partial('_partial/header.ejs', null, {cache: !config.relative_link}) %>
     <script>setLoadingBarProgress(40);</script>
   <div class="l_body">
