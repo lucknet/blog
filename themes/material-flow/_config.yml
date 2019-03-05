@@ -47,8 +47,8 @@ less:
 # use url, not username
 social:
 - slug: github
-  url: https://github.com/stkevintan
+  url: https://github.com/lucknet
 - slug: twitter
-  url: https://twitter.com/kevinsfork
+  url: https://twitter.com/McLuckServer
 - slug: rss
 	url: /atom.xml
