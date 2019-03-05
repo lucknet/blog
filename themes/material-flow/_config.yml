@@ -29,23 +29,14 @@ links:
 
 # navigation menu
 menu:
-  - name: Home
+  - name: ホーム
     slug: home
     url: /
-  - name: Archives
+  - name: アーカイブ
     slug: archives
     url: /archives
-  - name: Gallery
-    slug: gallery
-    url: https://photos.google.com/album/AF1QipNoqKYgspQo5O1YhlFXGCQ7p575KBH3Yxf8WHL4?hl=zh-CN
-  - name: About
-    slug: about
-    url: /about
-
 # widgets
 widgets:
-  - about
-  - links
   - categories
   - tagcloud
 
