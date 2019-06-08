@@ -19,3 +19,6 @@ jobs:
       - run:
           name: 'Deploy to Hosting'
           command: node_modules/.bin/firebase deploy --only hosting --project "$FIREBASE_PROJECT_ID" --token "$FIREBASE_TOKEN"
+      - run:
+          name: 'Trigger build of lucknetwork.jp'
+          command: curl -u $CIRCLE_API_USER_TOKEN -d build_parameters[CIRCLE_JOB]=build-and-deploy https://circleci.com/api/v1.1/project/github/lucknet/web/tree/master
